@@ -9,7 +9,7 @@ class TestMyModule(unittest.TestCase):
         self.assertEqual(app.sum(1, 2), 3)
 
     def test_sum_mala(self):
-        self.assertNotEqual(app.sum(1, 2), 2)
+        self.assertNotEqual(app.sum(1, 2), 3)
 
 if __name__ == "__main__":
     unittest.main()
